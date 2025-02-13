@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Love Timeline</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .heart {
+        font-size: 3rem;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tophai container">
+      Happy Valentine's Day,
+      <div class="animate-pulse">My Love</div>
+      <div class="heart" onclick="redirectToTimeline()">❤️</div>
+    </div>
+
+    <!-- Custom Message Box -->
+    <div
+      id="messageBox"
+      class="fixed bottom-20 left-1/2 transform -translate-x-1/2 hidden bg-white p-4 rounded-lg shadow-lg text-center"
+    >
+      <p>Click the heart to see our beautiful journey!</p>
+    </div>
+
+    <script>
+      setTimeout(() => {
+        document.getElementById("messageBox").classList.remove("hidden"); // Show message box
+      }, 3000);
+
+      function redirectToTimeline() {
+        window.location.href = "timeline.html"; // Change this to the actual timeline page
+      }
+    </script>
+  </body>
+</html>
