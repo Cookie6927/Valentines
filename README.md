@@ -11,7 +11,7 @@ A special, heartwarming website dedicated to the most amazing person in my life.
 
 ## 💝 How to View
 
-Simply visit: "wait wait lemme host first" and let the magic unfold! ✨
+Simply visit: [For MY LOVE](https://example.com](https://cookie6927.github.io/Valentines/) and let the magic unfold! ✨
 
 ## 🎁 A Special Message
 
